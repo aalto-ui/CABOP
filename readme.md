@@ -35,7 +35,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 Clone the repository and install dependencies:
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:aalto-ui/CABOP.git
 cd CABOP
 uv sync
 ```
@@ -168,7 +168,3 @@ y = rosenbrock(x, add_noise=0.1, mult_noise=0.1)
 - scikit-learn
 - loguru
 - matplotlib
-
-## License
-
-[Add your license here]
